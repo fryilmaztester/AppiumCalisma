@@ -10,6 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.Locale;
 
 public class ScrollDeneme extends BaseDriver{
 
@@ -19,9 +20,11 @@ public class ScrollDeneme extends BaseDriver{
 
         AndroidDriver androidDriver = getAppiumDriver();
 
-        String apıDemosActual = androidDriver.findElementByXPath("//*[@text = 'API DEMOS']").getText();
+        String apıDemosActual = androidDriver.findElementByXPath("//*[@text = 'API DEMOS']").getText().toUpperCase();
         String apıDemosExpected = "API DEMOS";
         Assert.assertEquals(apıDemosActual,apıDemosExpected);
+
+
 
 
         androidDriver.findElementByAccessibilityId("Views").click();
