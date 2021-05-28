@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseDriver {
 
 
-    public static AndroidDriver getAppiumDriver() throws MalformedURLException {
+    public static AndroidDriver<AndroidElement> getAppiumDriver() throws MalformedURLException {
 
 
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();

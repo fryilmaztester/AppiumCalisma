@@ -1,4 +1,4 @@
-package Cucumber.StepDef;
+package Cucumber.stepdefinitons;
 
 /*
 SwagLabs uygulamasını açın
