@@ -9,6 +9,7 @@ public class AllPage {
     private CommonUsagePage commonUsagePage;
     private ProductsPage productsPage;
     private CartPage cartPage;
+    private SubmenuPage submenuPage;
 
 
 
@@ -40,8 +41,10 @@ public class AllPage {
         return cartPage;
     }
 
-
-
-
-
+    public SubmenuPage submenuPage() {
+        if (submenuPage == null){
+            submenuPage = new SubmenuPage();
+        }
+        return submenuPage;
+    }
 }

@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
         glue = "Cucumber/stepdefinitons",
 
 
-        tags = "@PositivLogin",
+        tags = "@WebView",
 
 
         dryRun = false
