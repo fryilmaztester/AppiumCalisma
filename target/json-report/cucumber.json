@@ -1,0 +1,164 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Kullanici login asamalari",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11014024000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici Uygulamanin acildigini verify eder",
+            "match": {
+              "location": "Cucumber.stepdefinitons.CommonUsage.kullanici_Uygulamanın_acildigini_verify_eder()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 251655000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici kullanici adini girer \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 32
+                }
+              ],
+              "location": "Cucumber.stepdefinitons.LoginScenariosNegativAndPostive.kullanici_yanlis_kullanici_adini_girer(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 918269000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici kullanici sifre girer \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 32
+                }
+              ],
+              "location": "Cucumber.stepdefinitons.LoginScenariosNegativAndPostive.kullanici_yanlis_kullanici_sifre_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 784449000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Kullanici login butonuna tiklar",
+            "match": {
+              "location": "Cucumber.stepdefinitons.LoginScenariosNegativAndPostive.kullanici_login_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1353858000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Kullanici login oldugunu verify eder",
+            "match": {
+              "location": "Cucumber.stepdefinitons.LoginScenariosNegativAndPostive.kullanici_login_oldugunu_verify_eder()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-29T14:20:39.581Z",
+        "line": 12,
+        "name": "Webview ile amazona giriş",
+        "description": "",
+        "id": "webview-test-case;webview-ile-amazona-giriş",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 288062000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Kullanici sub menu tiklar",
+            "match": {
+              "location": "Cucumber.stepdefinitons.WebViewTC.kullanici_sub_menu_tiklar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1763700000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Kullanici webview a tiklar",
+            "match": {
+              "location": "Cucumber.stepdefinitons.WebViewTC.kullanici_webview_a_tiklar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3252732000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Kullanici webview de \"https://www.amazon.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.amazon.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Cucumber.stepdefinitons.WebViewTC.kullanici_webview_de(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5058979000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Kullanici amazona gittiğini doğrular",
+            "match": {
+              "location": "Cucumber.stepdefinitons.WebViewTC.kullanici_amazona_gittiğini_doğrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebView"
+          }
+        ]
+      }
+    ],
+    "name": "Webview Test Case",
+    "description": "",
+    "id": "webview-test-case",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/webView.feature",
+    "tags": []
+  }
+]

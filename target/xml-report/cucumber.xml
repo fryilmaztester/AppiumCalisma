@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.849">
+<testcase classname="Webview Test Case" name="Webview ile amazona giriş" time="24.737">
+<system-out><![CDATA[Given Kullanici Uygulamanin acildigini verify eder..........................passed
+When Kullanici kullanici adini girer "standard_user"........................passed
+And Kullanici kullanici sifre girer "secret_sauce"..........................passed
+And Kullanici login butonuna tiklar.........................................passed
+Then Kullanici login oldugunu verify eder...................................passed
+When Kullanici sub menu tiklar..............................................passed
+When Kullanici webview a tiklar.............................................passed
+When Kullanici webview de "https://www.amazon.com"..........................passed
+Then Kullanici amazona gittiğini doğrular...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
